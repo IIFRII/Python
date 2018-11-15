@@ -1,0 +1,5 @@
+import os
+os.startfile(r'C:\Users\xxx\Documents\Python\file1.xlsx')
+os.startfile(r'C:\Users\xxx\Documents\Python\file2.xlsx')
+os.startfile(r'C:\Users\xxx\Documents\Python\file3.xlsx')
+os.startfile(r'C:\Users\xxx\Documents\Python\file4.xlsx')
