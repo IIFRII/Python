@@ -1,0 +1,25 @@
+import time
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+import pyautogui
+
+usernameStr = 'xxxx'
+passwordStr = '123456'
+
+browser = webdriver.Firefox()
+browser.get(('https://www.xxxxxxx.com'))
+time.sleep(5)
+pyautogui.PAUSE = 1
+pyautogui.FAILSAFE = True
+pyautogui.click(000, 000)
+time.sleep(7)
+
+username = browser.find_element_by_id('kkkkk')
+username.send_keys(usernameStr)
+
+password = browser.find_element_by_id('yyyyy')
+password.send_keys(passwordStr)
+
+nextButton = browser.find_element_by_id('zzzzz')
+nextButton.click()
