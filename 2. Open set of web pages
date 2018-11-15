@@ -1,0 +1,15 @@
+import webbrowser
+import time
+webbrowser.open('https://mail.google.com/mail/u/0/#inbox', new=2)
+time.sleep(5) # delays for X seconds
+webbrowser.open('https://www.youtube.com/', new=2)
+webbrowser.open('http://www.nfl.com/news', new=2)
+webbrowser.open('https://www.milanofinanza.it/', new=2)
+webbrowser.open('http://www.ilsole24ore.com/', new=2)
+webbrowser.open('https://www.economist.com/', new=2)
+webbrowser.open('https://www.ft.com/', new=2)
+webbrowser.open('https://finance.yahoo.com/', new=2)
+webbrowser.open('http://www.ansa.it/', new=2)
+webbrowser.open('http://www.corriere.it/', new=2)
+webbrowser.open('http://www.repubblica.it/', new=2)
+webbrowser.open('http://www.ilpost.it/', new=2)
