@@ -1,0 +1,8 @@
+import os
+import time
+import pyautogui
+os.startfile(r'C:\Program Files (x86)\zzzz.exe')
+time.sleep(95) # delays for x seconds
+pyautogui.PAUSE = 1
+pyautogui.FAILSAFE = True
+pyautogui.click(000, 000) 
