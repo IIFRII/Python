@@ -1,0 +1,3 @@
+import pyautogui, time
+time.sleep(10) #delay from running the script to performing the action
+pyautogui.click(clicks=100, interval=1) #perform X number of clicks
