@@ -1,0 +1,5 @@
+import random
+
+print ('Hello there! I'm about to make a choice for you. I'm going to choose something from your indifference curve; tonight is about:')
+x = random.choice (['chill&netflix', 'walk downtown', 'Sushi!', 'drink?!', 'movie!'])
+print (x)
