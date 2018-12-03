@@ -1,0 +1,7 @@
+#first let's convert pdf to images on which tesseract can work with
+
+from pdf2image import convert_from_path
+
+pages = convert_from_path('PDF', 600)
+for page in pages:
+    page.save('output.png', 'ONG')
