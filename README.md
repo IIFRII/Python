@@ -10,5 +10,5 @@ Just some code that I’ve written or, mostly, scraped together along the way -f
 6. **Random option chooser.**
 7. **Download a financial statement, transpose it to excel then perform some calculations. Save the file to further view it.**
 8. **An example of simple stock analisys.**
-9. **Extract text from digitalized PDF (imaged based PDFs, non text based PDF)** using HP\Google engine *Tesseract OCR*. Used it to speed up the workflow of my teams, avoiding tedious typing-copying.
-10. **Scrape tables and data from text based PDFs** using *Tabula*. Used it countless times to extract data from pdfs long thousands of pages and then import it, clean it with Power Pivot (Excel) and use it.
+9. **Extract text from digitalized PDF (imaged based PDFs, non text based PDF)** using HP\Google engine **Tesseract OCR**. Used it to speed up the workflow of my teams, avoiding tedious typing-copying.
+10. **Scrape tables and data from text based PDFs using Tabula**. Used it countless times to extract data from pdfs long thousands of pages and then import it, clean it with Power Pivot (Excel) and use it.
