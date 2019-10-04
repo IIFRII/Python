@@ -1,1 +1,7 @@
+import tabula
+df = tabula.read_pdf(“xxxx.pdf”,multiple_tables=True)
+tabula.read_pdf("offense.pdf", area=(9,99,999,9999), pages=9)
+tabula.convert_into("xxxx.pdf", "xxxx.xlsx", output_format="xlsx")
 
+# or CSV conversion
+# tabula.convert_into("xxxx.pdf", "xxxx.csv", output_format="csv", pages='all')
