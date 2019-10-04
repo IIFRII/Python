@@ -1,7 +1,8 @@
-#first let's convert pdf to images on which tesseract can work with
+from PIL import Image
+import pytesseract
 
-from pdf2image import convert_from_path
+im = Image.open("xxxx.png")
 
-pages = convert_from_path('PDF', 600)
-for page in pages:
-    page.save('output.png', 'PNG')
+text = pytesseract.image_to_string(im, lang = 'ita')
+
+print(text)
